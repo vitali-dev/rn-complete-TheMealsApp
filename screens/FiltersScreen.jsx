@@ -39,7 +39,7 @@ const FiltersScreen = props => {
         onChange={newValue => setIsLactoseFree(newValue)}
       />
       <FilterSwitch
-        label='Vegan'
+        label='Vegan 👨‍🌾'
         state={isVegan}
         onChange={newValue => setIsVegan(newValue)}
       />
